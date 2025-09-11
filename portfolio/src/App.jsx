@@ -1,35 +1,57 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { Component } from 'react'
+import Projects from './pages/Projects'
+import Skills from './pages/Skills'
+import Contact from './pages/Contact'
+import Navbar from './components/navbar'
 
-function App() {
-  const [count, setCount] = useState(0)
+class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      menuOpen: false,
+    }
+  }
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+  toggleMenu = () => {
+    this.setState((prevState) => ({ menuOpen: !prevState.menuOpen }))
+  }
+
+  render() {
+    return (
+      <>
+
+        <Navbar />
+
+        {/* Hero */}
+        <section className="hero" id="home">
+          <div className="container">
+            <h1 className="h1">Hi, I’m William — CS student building real products.</h1>
+            <p className="lead">
+              Hands‑on with React, Node.js, and MySQL. Comfortable with REST APIs, Git‑centric workflows, and shipping.
+            </p>
+            <div className="ctaRow">
+              <a href="#projects" className="btn btn-primary">See projects</a>
+              <a href="mailto:d.j.stewart7873@gmail.com" className="btn btn-outline">Email me</a>
+            </div>
+          </div>
+        </section>
+
+        {/* Main content */}
+        <main id="main">
+          <Projects />
+          <Skills />
+          <Contact />
+        </main>
+
+        {/* Footer */}
+        <footer className="footer">
+          <div className="container">
+            <small>© {new Date().getFullYear()} William Stewart.</small>
+          </div>
+        </footer>
+      </>
+    )
+  }
 }
 
 export default App
