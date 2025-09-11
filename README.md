@@ -33,6 +33,7 @@ src/
   App.jsx           # Main app structure
   index.css         # Global theme and styles
 ```
+---
 ## To Run Locally
 ```bash
 # Clone your repo (if you haven’t yet)
