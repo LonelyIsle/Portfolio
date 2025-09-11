@@ -1,10 +1,22 @@
 
 
 const skills = [
-  'Python', 'JavaScript', 'C++', 'Java', 'PHP',
-  'HTML', 'CSS', 'React', 'Node.js',
-  'MySQL',
-  'Git', 'GitHub', 'VS Code', 'Postman', 'npm', 'Figma', 'Azure', 'Vercel',
+  {
+    category: 'Languages',
+    items: ['JavaScript', 'C++', 'Python'],
+  },
+  {
+    category: 'Web Development',
+    items: ['HTML', 'CSS', 'React', 'Node.js'],
+  },
+  {
+    category: 'Database',
+    items: ['MySQL'],
+  },
+  {
+    category: 'Tools & Platforms',
+    items: ['Git', 'VS Code', 'npm', 'Figma'],
+  },
 ]
 
 export default function Skills() {
@@ -12,11 +24,18 @@ export default function Skills() {
     <section id="skills" className="altSection">
       <div className="container">
         <h2 className="h2">Technical Skills</h2>
-        <ul className="skillsWrap">
-          {skills.map((s) => (
-            <li key={s} className="skillPill">{s}</li>
+        <div className="grid">
+          {skills.map((group) => (
+            <div key={group.category} className="card">
+              <h3 className="h3">{group.category}</h3>
+              <ul className="tagList">
+                {group.items.map((s) => (
+                  <li key={s} className="tag">{s}</li>
+                ))}
+              </ul>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
   )
