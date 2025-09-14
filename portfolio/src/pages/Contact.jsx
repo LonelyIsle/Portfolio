@@ -8,7 +8,12 @@ export default function Contact() {
         </p>
         <div className="flex items-center justify-center min-h-screen w-full">
           <div className="ctaRow flex justify-center space-x-12">
-            <a href="mailto:d.j.stewart7873@gmail.com" className="btn-teal-bright">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=d.j.stewart7873@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="btn-teal-bright"
+            >
               <img src="/icons/Envelopes.svg" alt="Email" className="icon icon-invert" />
             </a>
             <a
