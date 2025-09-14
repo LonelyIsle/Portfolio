@@ -3,6 +3,7 @@ import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Navbar from './components/navbar'
+import Typewriter from "./components/Typewriter";
 
 class App extends Component {
   constructor(props) {
@@ -25,9 +26,9 @@ class App extends Component {
         {/* Hero */}
         <section className="hero" id="home">
           <div className="container">
-            <h1 className="h1">Hi, I’m Will - A CS student building real products.</h1>
+            <h1 className="h1">Hi, I’m Will - A CS student <Typewriter words={["Completeing projects", "Cleaning data", "Teaching models", "Making routes", "Importing data"]} typingSpeed={75} deletingSpeed={45} pauseAtWord={900} loop />.</h1>
             <p className="lead">
-              Hands‑on with React, Node.js, and MySQL. Comfortable with Git‑centric workflows, 
+              Hands‑on with JavaScript, Python, C++, React, and Node.js Comfortable with Git‑centric workflows and working in teams to make deadlines.
             </p>
           </div>
         </section>
