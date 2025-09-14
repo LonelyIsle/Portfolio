@@ -134,7 +134,7 @@ a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
 /* Mobile dropdown panel (closed by default) */
 .nav .navList {
   position: absolute;
-  right: -6rem;         
+  right: 2.5rem;         
   top: 0%;          
   background: var(--bg-soft);
   border: 1px solid var(--border);
