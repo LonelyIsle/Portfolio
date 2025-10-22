@@ -50,7 +50,7 @@ export default function Typewriter({
   }, [text, isDeleting, wordIdx, words, typingSpeed, deletingSpeed, pauseAtWord, loop]);
 
   return (
-    <span aria-live="polite" className="whitespace-pre">
+    <span aria-live="polite" className="typewriter whitespace-pre">
       {text}
       <span className="type-caret" />
     </span>
