@@ -11,11 +11,11 @@ const skills = [
   },
   {
     category: 'Database',
-    items: ['MySQL'],
+    items: ['MySQL', 'SQLite'],
   },
   {
     category: 'Tools & Platforms',
-    items: ['Git', 'VS Code', 'npm', 'Figma'],
+    items: ['Git', 'GitHub', 'VS Code', 'npm', 'Figma'],
   },
 ]
 
