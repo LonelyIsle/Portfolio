@@ -213,6 +213,14 @@ a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
   background: radial-gradient(1200px 400px at 80% 20%, rgba(255, 83, 214, 0.24), transparent 65%);
   pointer-events: none;
 }
+.heroMeta {
+  margin: 0 0 0.65rem 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.28px;
+  color: var(--muted);
+}
+.heroEducation { text-transform: uppercase; font-weight: 600; letter-spacing: 0.24em; opacity: 0.85; font-size: 0.85rem; }
+.heroLocation { margin-top: 0.5rem; margin-bottom: 1rem; color: #b8d7ff; }
 .h1 { font-size: 2rem; line-height: 1.2; margin: 0; text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
 .lead { margin-top: 0.75rem; opacity: 0.92; max-width: 700px; }
 .ctaRow {display: flex; justify-content: center; align-items: center; gap: 2rem; margin-top: 2rem; flex-wrap: wrap; width: 100%; }
@@ -257,7 +265,6 @@ a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
 .cardLinks { display: flex; gap: 0.75rem; }
 .cardLink { color: #9fefff; text-decoration: none; transition: color 160ms ease, text-shadow 160ms ease; }
 .cardLink:hover { color: var(--accent-2); text-shadow: 0 0 12px rgba(255, 83, 214, 0.6); }
-
 /* Skills */
 .skillsWrap { display: flex; flex-wrap: wrap; gap: 0.5rem; max-width: 900px; }
 .skillPill { background: var(--chip-bg); border: 1px solid var(--chip-border); border-radius: 999px; padding: 0.35rem 0.7rem; font-size: 0.9rem; }

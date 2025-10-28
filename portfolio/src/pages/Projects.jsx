@@ -1,5 +1,3 @@
-
-
 const projects = [
   {
     title: 'Natural Language Processing Search Engine',
@@ -26,7 +24,7 @@ const projects = [
       'Team project: product browsing, auth, cart/CRUD flows. Reusable React components, secured routes, MySQL schema + REST endpoints. Frontend on Vercel; backend + DB on Azure.',
     tech: ['React', 'Node.js', 'MySQL', 'Azure', 'Vercel'],
     link: 'https://github.com/LonelyIsle',
-    live: '',
+    live: 'https://lonelyisle-ecommerce-demo.vercel.app',
   },
 ]
 

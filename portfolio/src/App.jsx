@@ -26,7 +26,28 @@ class App extends Component {
         {/* Hero */}
         <section className="hero" id="home">
           <div className="container">
-            <h1 className="h1">Hi, I’m Will - A CS student <Typewriter words={["completeing projects.", "cleaning data.", "teaching models.", "making routes.", "remembering syntax."]} typingSpeed={75} deletingSpeed={45} pauseAtWord={900} loop /></h1>
+            <p className="heroMeta heroEducation">
+              University of Houston · B.S. Computer Science · Class of 2025
+            </p>
+            <h1 className="h1">
+              Hi, I’m Will — a CS student{' '}
+              <Typewriter
+                words={[
+                  'completeing projects.',
+                  'cleaning data.',
+                  'teaching models.',
+                  'making routes.',
+                  'remembering syntax.',
+                ]}
+                typingSpeed={75}
+                deletingSpeed={45}
+                pauseAtWord={900}
+                loop
+              />
+            </h1>
+            <p className="heroMeta heroLocation">
+              Based in Cypress, Texas
+            </p>
             <p className="lead">
               Hands‑on with JavaScript, Python, C++, React, and Node.js Comfortable with Git‑centric workflows and working in teams to make deadlines.
             </p>

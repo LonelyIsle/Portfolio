@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="container">
         <h2 className="h2">Contact</h2>
         <p className="body">
-          Please reach out to me through email or Linkedin, as this is the best way to get in contact with me. You can also check out my Github for the latest project im working on.
+          Please reach out to me through email or LinkedIn, as this is the best way to get in contact with me. You can also check out my GitHub for the latest projects I'm working on.
         </p>
         <div className="flex items-center justify-center min-h-screen w-full">
           <div className="ctaRow flex justify-center space-x-12">
