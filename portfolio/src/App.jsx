@@ -33,7 +33,7 @@ class App extends Component {
               Hi, I’m Will — a CS student{' '}
               <Typewriter
                 words={[
-                  'completeing projects.',
+                  'completing projects.',
                   'cleaning data.',
                   'teaching models.',
                   'making routes.',
