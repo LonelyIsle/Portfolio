@@ -1,29 +1,29 @@
 const projects = [
   {
-    title: 'Natural Language Processing Search Engine',
-    timeframe: 'Aug 2025 – Present',
+    title: 'NLP Search & Ranking System',
+    timeframe: 'August 2025 - December 2025',
     description:
-      'Search engine that interprets natural-language queries. Preprocessing (tokenization, stopword removal), TF-IDF/embeddings for ranking, Flask REST API, and evaluation on real datasets.',
+      'Document search system that interprets natural-language queries and ranks results using vector-based similarity. Includes preprocessing (tokenization, stopword removal), TF-IDF/embedding features, Flask REST API endpoints, and retrieval evaluation (precision/recall).',
     tech: ['Python', 'NLP', 'Flask'],
-    link: 'https://github.com/LonelyIsle',
+    link: 'https://github.com/LonelyIsle/NLP-project',
     live: '',
   },
   {
-    title: 'Volunteer Coordination & Event Management System',
-    timeframe: 'Jun 2025 – Aug 2025',
+    title: 'Lungevity',
+    timeframe: 'August 2025 - December 2025',
     description:
-      'Web app with user auth, admin dashboards, volunteer matching, event CRUD, notifications, and participation history. Standardized UI via global.css and organized PHP pages.',
-    tech: ['PHP', 'HTML/CSS', 'MySQL'],
-    link: 'https://github.com/LonelyIsle',
+      'Predictive modeling project analyzing health-related data to estimate longevity outcomes. Includes EDA, cleaning, feature engineering, model training/comparison in scikit-learn, and evaluation with standard classification metrics in a reproducible Jupyter workflow.',
+    tech: ['Python', 'Pandas', 'scikit-learn', 'Jupyter'],
+    link: 'https://github.com/LonelyIsle/Data-Science-2-project',
     live: '',
   },
   {
     title: 'E-commerce Full-Stack Web Application',
     timeframe: 'Jan 2025 – Apr 2025',
     description:
-      'Team project: product browsing, auth, cart/CRUD flows. Reusable React components, secured routes, MySQL schema + REST endpoints. Frontend on Vercel; backend + DB on Azure.',
+      'Team project: product browsing, authentication, and cart workflows. Built reusable React components, Node.js REST APIs, and a MySQL schema supporting CRUD and transactional updates. Deployed frontend on Vercel with backend/database on Azure.',
     tech: ['React', 'Node.js', 'MySQL', 'Azure', 'Vercel'],
-    link: 'https://github.com/LonelyIsle',
+    link: 'https://github.com/LonelyIsle', // replace with the repo if you have a specific one
     live: 'https://lonelyisle-ecommerce-demo.vercel.app',
   },
 ]
@@ -45,8 +45,16 @@ export default function Projects() {
                 ))}
               </ul>
               <div className="cardLinks">
-                {p.live && <a className="cardLink" href={p.live} target="_blank" rel="noreferrer">Live</a>}
-                {p.link && <a className="cardLink" href={p.link} target="_blank" rel="noreferrer">Code</a>}
+                {p.live && (
+                  <a className="cardLink" href={p.live} target="_blank" rel="noreferrer">
+                    Live
+                  </a>
+                )}
+                {p.link && (
+                  <a className="cardLink" href={p.link} target="_blank" rel="noreferrer">
+                    Code
+                  </a>
+                )}
               </div>
             </article>
           ))}
