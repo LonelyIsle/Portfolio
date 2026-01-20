@@ -14,7 +14,7 @@ export default function Navbar() {
             <span className="brandMark" aria-hidden="true">WS</span>
             <span className="brandMeta">
               <span className="brandName">William Stewart</span>
-              <span className="brandRole">CS Student · Developer</span>
+              <span className="brandRole">CS Graduate · Developer</span>
             </span>
           </div>
           <nav aria-label="Primary" className={`nav ${menuOpen ? 'is-open' : ''}`}>

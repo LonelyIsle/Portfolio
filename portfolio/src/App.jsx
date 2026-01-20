@@ -30,7 +30,7 @@ class App extends Component {
               University of Houston · B.S. Computer Science · Class of 2025
             </p>
             <h1 className="h1">
-              I’m Will — an engineer{' '}
+              I’m Will — An engineer{' '}
               <Typewriter
                 words={[
                   'completing projects.',
