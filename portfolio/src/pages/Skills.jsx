@@ -11,7 +11,7 @@ const skills = [
   },
   {
     category: 'Database',
-    items: ['MySQL', 'SQLite'],
+    items: ['MySQL', 'SQLite', 'Docker'],
   },
   {
     category: 'Tools & Platforms',
