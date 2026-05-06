@@ -1,7 +1,7 @@
 # William Stewart's Portfolio
 
 This is my personal portfolio site built with **React + Vite**.  
-It showcases my projects, technical skills, and contact information in a clean, modern UI themed around teal & pink accents.
+It showcases my projects, technical skills, and contact information in a clean, modern UI theme.
 
 ---
 
