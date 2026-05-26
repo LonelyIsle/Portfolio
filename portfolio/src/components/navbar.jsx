@@ -14,7 +14,7 @@ export default function Navbar() {
             <span className="brandMark" aria-hidden="true">WS</span>
             <span className="brandMeta">
               <span className="brandName">William Stewart</span>
-              <span className="brandRole">CS Graduate · Developer</span>
+              <span className="brandRole">CS Graduate / Developer</span>
             </span>
           </div>
           <nav aria-label="Primary" className={`nav ${menuOpen ? 'is-open' : ''}`}>
@@ -25,10 +25,10 @@ export default function Navbar() {
               className="menuBtn"
             >☰</button>
             <ul className={`navList ${menuOpen ? 'show' : ''}`}>
-              <li><a href="#projects" className="navLink" onClick={() => setMenuOpen(false)}>Projects</a></li>
-              <li><a href="#skills" className="navLink" onClick={() => setMenuOpen(false)}>Skills</a></li>
-              <li><a href="#contact" className="navLink" onClick={() => setMenuOpen(false)}>Contact</a></li>
-              <li><a href="/resume/William_Stewart_Resume.pdf" download className="navLink" onClick={() => setMenuOpen(false)} aria-label="Download Resume (PDF)" title="Download Resume">Resume</a></li>
+              <li><a href="#projects" className="navLink" onClick={() => setMenuOpen(false)}>Quest Board</a></li>
+              <li><a href="#skills" className="navLink" onClick={() => setMenuOpen(false)}>Inventory</a></li>
+              <li><a href="#contact" className="navLink" onClick={() => setMenuOpen(false)}>Send Raven</a></li>
+              <li><a href="/resume/William_Stewart_Resume.pdf" download className="navLink" onClick={() => setMenuOpen(false)} aria-label="Download Resume (PDF)" title="Download Resume">Scroll</a></li>
             </ul>
           </nav>
         </div>

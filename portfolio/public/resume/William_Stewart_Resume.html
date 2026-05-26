@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>William Stewart Resume</title>
+    <style>
+      @page {
+        size: letter;
+        margin: 0.45in 0.55in;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: #111;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 10.6pt;
+        line-height: 1.18;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 30pt;
+        font-weight: 500;
+        line-height: 1;
+      }
+
+      .contact {
+        margin-top: 4px;
+        font-size: 10.2pt;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+
+      section {
+        margin-top: 12px;
+      }
+
+      h2 {
+        margin: 0 0 5px;
+        border-bottom: 1px solid #777;
+        font-size: 14pt;
+        font-variant: small-caps;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
+      .right {
+        flex: 0 0 auto;
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      .item {
+        margin: 0 0 8px;
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: 11.4pt;
+      }
+
+      .sub {
+        font-style: italic;
+      }
+
+      .skills p {
+        margin: 2px 0;
+      }
+
+      ul {
+        margin: 4px 0 0 20px;
+        padding: 0;
+      }
+
+      li {
+        margin: 2px 0;
+      }
+
+      .project-heading {
+        align-items: baseline;
+      }
+
+      .tech {
+        font-style: italic;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>William Stewart</h1>
+      <div class="contact">
+        (281) 844-5196 |
+        <a href="mailto:d.j.stewart7873@gmail.com">d.j.stewart7873@gmail.com</a> |
+        <a href="https://github.com/LonelyIsle">github.com/LonelyIsle</a> |
+        <a href="https://linkedin.com/in/william-stewart-0b46112b3">linkedin.com/in/william-stewart-0b46112b3</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="row">
+          <div class="title">University of Houston</div>
+          <div class="right">Houston, TX</div>
+        </div>
+        <div class="row">
+          <div class="sub">Bachelor of Science in Computer Science, Minor in Data Science</div>
+          <div class="right sub">Dec 2025</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+          <div class="title">Lone Star College</div>
+          <div class="right">Houston, TX</div>
+        </div>
+        <div class="row">
+          <div class="sub">Associate of Science in Computer Science</div>
+          <div class="right sub">May 2022</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <p><strong>Languages:</strong> Python, TypeScript, JavaScript, Go, C++</p>
+      <p><strong>Frameworks &amp; Libraries:</strong> React, Node.js, Flask, Pandas, NumPy, scikit-learn</p>
+      <p><strong>Developer Tools:</strong> Git, GitHub, VS Code, Jupyter, MySQL, Azure, Vercel</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="item">
+        <div class="row project-heading">
+          <div><span class="title">NLP Search &amp; Ranking System</span> | <span class="tech">Python, NLP, Flask</span></div>
+          <div class="right">Aug 2025 - Dec 2025</div>
+        </div>
+        <ul>
+          <li>Developed a document search system that interprets natural language queries and ranks results using vector-based similarity.</li>
+          <li>Implemented preprocessing pipelines including tokenization, stopword removal, and TF-IDF / embedding-based features.</li>
+          <li>Evaluated retrieval quality using precision and recall on labeled datasets.</li>
+          <li>Exposed search functionality through RESTful APIs built with Flask.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="row project-heading">
+          <div><span class="title">Lungevity</span> | <span class="tech">Python, Pandas, scikit-learn</span></div>
+          <div class="right">Aug 2025 - Dec 2025</div>
+        </div>
+        <ul>
+          <li>Built a predictive modeling pipeline to analyze health-related data and estimate longevity-related outcomes.</li>
+          <li>Performed exploratory data analysis, feature engineering, and data cleaning on structured datasets.</li>
+          <li>Trained and evaluated supervised learning models including linear and tree-based approaches.</li>
+          <li>Measured model performance using accuracy, precision, recall, and confusion matrices.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="row project-heading">
+          <div><span class="title">Piney Point Farm</span> | <span class="tech">TypeScript, Go, Web Development</span></div>
+          <div class="right">Nov 2025 - Dec 2025</div>
+        </div>
+        <ul>
+          <li>Built and maintained a production website for Piney Point Farm using TypeScript and Go.</li>
+          <li>Developed a clear public-facing interface for farm information, visitor needs, and site navigation.</li>
+          <li>Organized project code under the Clydesdale Systems GitHub organization for maintainability and collaboration.</li>
+          <li>Published the live site at <a href="https://pineypointfarm.com">pineypointfarm.com</a>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="item">
+        <div class="row">
+          <div class="title">Reef Sensing</div>
+          <div class="right">Houston, TX</div>
+        </div>
+        <div class="row">
+          <div class="sub">Operations Technology Specialist</div>
+          <div class="right sub">May 2026 - Present</div>
+        </div>
+        <ul>
+          <li>Support and update company websites, maintaining public-facing content and operational web resources.</li>
+          <li>Assist with inventory tracking and shipping preparation to support accurate outbound order fulfillment.</li>
+          <li>Test sensors for validation before shipment, verifying readiness and identifying issues before delivery.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="row">
+          <div class="title">Bluewater Seafood</div>
+          <div class="right">Houston, TX</div>
+        </div>
+        <div class="row">
+          <div class="sub">Shift Manager</div>
+          <div class="right sub">Aug 2024 - Present</div>
+        </div>
+        <ul>
+          <li>Supervise front-of-house operations during service, coordinating staff and resolving customer issues to maintain efficient workflow.</li>
+          <li>Lead team operations during high-volume service periods, ensuring accurate order handling and strong time management across staff.</li>
+          <li>Collaborate with kitchen and front-of-house employees to resolve issues quickly and maintain service quality.</li>
+          <li>Support shift scheduling, team coordination, and operational decision-making during busy service hours.</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

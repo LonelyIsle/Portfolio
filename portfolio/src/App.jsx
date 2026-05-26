@@ -3,7 +3,6 @@ import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Navbar from './components/navbar'
-import Typewriter from "./components/Typewriter";
 
 class App extends Component {
   constructor(props) {
@@ -25,31 +24,41 @@ class App extends Component {
 
         {/* Hero */}
         <section className="hero" id="home">
-          <div className="container">
-            <p className="heroMeta heroEducation">
-              University of Houston · B.S. Computer Science · Class of 2025
-            </p>
-            <h1 className="h1">
-              I’m Will — An engineer{' '}
-              <Typewriter
-                words={[
-                  'completing projects.',
-                  'cleaning data.',
-                  'teaching models.',
-                  'remembering syntax.',
-                ]}
-                typingSpeed={75}
-                deletingSpeed={45}
-                pauseAtWord={900}
-                loop
-              />
-            </h1>
-            <p className="heroMeta heroLocation">
-              Based in Cypress, Texas
-            </p>
-            <p className="lead">
-              Hands‑on with JavaScript, Python, C++, React, and Node.js Comfortable with Git‑centric workflows and working in teams to make deadlines.
-            </p>
+          <div className="barScene" aria-hidden="true">
+            <div className="shelf shelfTop">
+              <span className="bottle bottleTall" />
+              <span className="bottle bottleRound" />
+              <span className="bottle bottleShort" />
+              <span className="mugPixel" />
+            </div>
+            <div className="shelf shelfLow">
+              <span className="bottle bottleShort" />
+              <span className="mugPixel" />
+              <span className="bottle bottleTall" />
+              <span className="bottle bottleRound" />
+            </div>
+            <div className="lantern lanternLeft" />
+            <div className="lantern lanternRight" />
+            <div className="candle candleLeft" />
+            <div className="candle candleCenter" />
+            <div className="candle candleRight" />
+          </div>
+
+          <div className="container heroCounter">
+            <div className="noticeBoard">
+              <p className="heroMeta heroEducation">
+                University of Houston / B.S. Computer Science / Class of 2025
+              </p>
+              <h1 className="h1">William Stewart</h1>
+              <p className="lead">
+                Developer working with JavaScript, Python, C++, React, Node.js, data pipelines, and team-built systems.
+              </p>
+              <div className="heroStats" aria-label="Portfolio summary">
+                <span>Location: Houston, TX</span>
+                <span>Role: Developer</span>
+                <span>Status: Working</span>
+              </div>
+            </div>
           </div>
         </section>
 

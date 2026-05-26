@@ -18,13 +18,13 @@ const projects = [
     live: '',
   },
   {
-    title: 'E-commerce Full-Stack Web Application',
-    timeframe: 'Jan 2025 – Apr 2025',
+    title: 'Piney Point Farm',
+    timeframe: 'November 2025 - December 2025',
     description:
-      'Team project: product browsing, authentication, and cart workflows. Built reusable React components, Node.js REST APIs, and a MySQL schema supporting CRUD and transactional updates. Deployed frontend on Vercel with backend/database on Azure.',
-    tech: ['React', 'Node.js', 'MySQL', 'Azure', 'Vercel'],
-    link: 'https://github.com/LonelyIsle', // replace with the repo if you have a specific one
-    live: 'https://lonelyisle-ecommerce-demo.vercel.app',
+      'Farm-focused web project for Piney Point Farm. Built to present farm information in a clear, maintainable interface with project code organized under the Clydesdale Systems GitHub organization.',
+    tech: ['TypeScript', 'Go', 'Web Development'],
+    link: '',
+    live: 'https://pineypointfarm.com',
   },
 ]
 
@@ -32,7 +32,7 @@ export default function Projects() {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2 className="h2">Projects</h2>
+        <h2 className="h2">Quest Board</h2>
         <div className="grid">
           {projects.map((p) => (
             <article key={p.title} className="card">

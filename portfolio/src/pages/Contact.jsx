@@ -2,12 +2,12 @@ export default function Contact() {
   return (
     <section id="contact" className="section">
       <div className="container">
-        <h2 className="h2">Contact</h2>
+        <h2 className="h2">Send Raven</h2>
         <p className="body">
-          Please reach out to me through email or LinkedIn, as this is the best way to get in contact with me. You can also check out my GitHub for the latest projects I'm working on.
+          Email and LinkedIn are the cleanest routes in. GitHub keeps the public record.
         </p>
-        <div className="flex items-center justify-center min-h-screen w-full">
-          <div className="ctaRow flex justify-center space-x-12">
+        <div className="contactPanel">
+          <div className="ctaRow">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=d.j.stewart7873@gmail.com"
               target="_blank"

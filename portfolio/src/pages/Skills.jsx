@@ -23,7 +23,7 @@ export default function Skills() {
   return (
     <section id="skills" className="altSection">
       <div className="container">
-        <h2 className="h2">Technical Skills</h2>
+        <h2 className="h2">Inventory</h2>
         <div className="grid">
           {skills.map((group) => (
             <div key={group.category} className="card">
