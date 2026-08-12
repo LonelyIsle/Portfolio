@@ -91,7 +91,7 @@ const experience = ({ company, location, role, date, bullets }) => {
 center('William Stewart', y, 30, 'F2')
 y -= 18
 center(
-  '(281) 844-5196 | d.j.stewart7873@gmail.com | github.com/LonelyIsle | linkedin.com/in/william-stewart-0b46112b3',
+  'github.com/LonelyIsle | linkedin.com/in/william-stewart-0b46112b3',
   y,
   9.2,
 )
